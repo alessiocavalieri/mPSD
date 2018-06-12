@@ -40,9 +40,9 @@ and of course a stepper motor to drive
   - Connect the GND pin of the carrier board to GND arduino pin
   - Connect the 9V pin of the carrier board to Vin arduino pin
 
-![alt_tag](https://github.com/alessiocavalieri/mPSD/images/mPSD_carrier_board.jpg?raw=true)
+![alt_tag](https://raw.githubusercontent.com/alessiocavalieri/mPSD/master/images/mPSD_carrier_board.jpg)
 
-![alt_tag](https://github.com/alessiocavalieri/mPSD/images/mPSD_lcd_keypad_shield_and_arduino.jpg?raw=true)
+![alt_tag](https://raw.githubusercontent.com/alessiocavalieri/mPSD/master/images/mPSD_lcd_keypad_shield_and_arduino.jpg)
 
 # Implemented functions / menu items
 - DRIVE (main functions, drive the motor)
