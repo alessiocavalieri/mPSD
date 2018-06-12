@@ -5,6 +5,8 @@ Useful for single-axis motion systems
 
 It's based on Arduino and is designed to be simple to assembly and to put at work, without particular expertise.
 
+It's stand alone, don't require a PC connected to drive the motor.
+
 There are similar project but they use a joystick or a rotative knob (aka encoder) and they cannot permit to reach an high precision and repetability during use, So I decided to reinvent the hot water :)
 
 !!! WARNING !!! is a work in progress project !!! use at your own risk and not in production environment !!!
