@@ -13,25 +13,30 @@ There are similar project but they use a joystick or a rotative knob (aka encode
 
 # Hardware
 
-All the assembly not require soldering, but only pre-assembled modules, the hardware needed is:
+All the assembly require only soldering some pins, the hardware needed is:
 
 - An Arduino Uno
 - A LCD KeyPad Shield For Arduino
 - A carrier board for A4988 / DRV8825 (called also A4988/DRV8825 Stepper Motor Control Board Expansion Board For 3D Printer)
 - A 12V power supply with enough power to drive the stepper motor
-- some single row straight pin header (male or female, depends to your choice and to your availability of jumper wires)
+- some single row straight pin header, minimum 7 pins (male or female, depends to your choice and to your availability of jumper wires)
 - a soldering iron for soldering the pin headers
 - 6 jumper wires
 
 and of course a stepper motor to drive
 
+![alt_tag](https://raw.githubusercontent.com/alessiocavalieri/mPSD/master/images/mPSD_modules_overview.jpg)
+
 # Connections
 
 - Place the LCD KeyPad Shield For Arduino on the Arduino Uno
+- Place the heatsink on the A4988 or the DRV8825 chip
 - Place the A4988 or the DRV8825 board on the carrier board 
 
 !!! PLEASE DOUBLE CHECK THE POLARITY!!! THE ORIENTATION OF THE A4988 IS DIFFERENT FROM DRV8825, THE TRIMMER IS IN THE OPPOSITE SIDE !!!
 !!! WRONG POLARITY CAN DESTROY THE A4988/DRV8825 AND BOTH THE ARDUINO !!!
+
+![alt_tag](https://raw.githubusercontent.com/alessiocavalieri/mPSD/master/images/orientation_A4988_DRV8825.jpg)
 
 - Connect the stepper motor to the stepper motor connector of the carrier board
 - Via jumper wires:
