@@ -27,7 +27,12 @@ and of course a stepper motor to drive
 
 ![alt_tag](https://raw.githubusercontent.com/alessiocavalieri/mPSD/master/images/mPSD_modules_overview.jpg)
 
-# Connections
+## Soldering
+
+- Solder four (4) pins of a strip header on the 5V, GND, GND and Vin soldering pads on the LCD keypad shield
+- Solder three (3) pins of a strip header on the A1, A2, A3 soldering pads on the LCD keypad shield
+
+## Connections
 
 - Place the LCD KeyPad Shield For Arduino on the Arduino Uno
 - Place the heatsink on the A4988 or the DRV8825 chip
