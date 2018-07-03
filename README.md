@@ -11,12 +11,17 @@ There are similar project but they use a joystick or a rotative knob (aka encode
 
 !!! WARNING !!! is a work in progress project !!! use at your own risk and not in production environment !!!
 
+# Intro video
+
+[![mPSD intro video](https://img.youtube.com/vi/xUKjmiBHGXU/3.jpg)](https://www.youtube.com/watch?v=xUKjmiBHGXU)
+
 # Hardware
 
 All the assembly require only soldering some pins, the hardware needed is:
 
 - An Arduino Uno
 - A LCD KeyPad Shield For Arduino
+- A DRV8825 driver (called also 3D Printer Stepstick DRV8825 Stepper Driver Reprap 4 Layer PCB)
 - A carrier board for A4988 / DRV8825 (called also A4988/DRV8825 Stepper Motor Control Board Expansion Board For 3D Printer)
 - A 12V power supply with enough power to drive the stepper motor
 - some single row straight pin header, minimum 7 pins (male or female, depends to your choice and to your availability of jumper wires)
