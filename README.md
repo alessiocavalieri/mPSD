@@ -71,4 +71,5 @@ and of course a stepper motor to drive
 
 - HOMING (Home up or down, needs one or two endstops connected)
 - SET UNIT (Set steps per unit in order to visualize current absolute position)
+- RETURN TO (return to a step number)
 
